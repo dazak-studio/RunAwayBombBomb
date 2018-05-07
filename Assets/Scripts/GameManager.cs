@@ -6,5 +6,10 @@ public class GameManager : Singleton<GameManager> {
 	{
 		Screen.sleepTimeout = SleepTimeout.NeverSleep;
 		Screen.SetResolution(1280, 720, true);
-	}	
+	}
+
+	private void Start()
+	{
+		BoardManager.GetInstance.Initialize();
+	}
 }
