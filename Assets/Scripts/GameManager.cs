@@ -10,6 +10,12 @@ public class GameManager : Singleton<GameManager> {
 
 	private void Start()
 	{
-		BoardManager.GetInstance.Initialize();
+		Initialize();	
 	}
+
+	private void Initialize()
+	{
+		BoardManager.GetInstance.Initialize();
+				
+	}		
 }

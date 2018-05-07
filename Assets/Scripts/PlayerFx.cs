@@ -9,5 +9,6 @@ public class PlayerFx : MonoBehaviour {
 		
 	}
 	
-	
+	[SerializeField] private GameObject[] _emotionFxPrefabGroup;
+	private List<ParticleSystem> _emotionFxGroup;
 }
