@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 
-public class GameManager : MonoBehaviour {
-		
+public class GameManager : Singleton<GameManager> {
+
 	private void Awake()
 	{
 		Screen.sleepTimeout = SleepTimeout.NeverSleep;
-		Screen.SetResolution(1280, 720, true);		
-	}		
+		Screen.SetResolution(1280, 720, true);
+	}	
 }
