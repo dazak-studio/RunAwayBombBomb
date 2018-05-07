@@ -16,6 +16,12 @@ public class GameManager : Singleton<GameManager> {
 	private void Initialize()
 	{
 		BoardManager.GetInstance.Initialize();
-				
-	}		
+		_player = Instantiate(_playerPrefab,
+			new Vector3((int) (BoardManager.GetInstance.Cols / 2.0f), 
+				(int) (BoardManager.GetInstance.Rows / 2.0f), -1.0f) 
+			* BoardManager.GetInstance.IntervalScale, Quaternion.identity);
+	}
+
+	[SerializeField] private GameObject _playerPrefab;
+	private GameObject _player;
 }

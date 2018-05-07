@@ -18,7 +18,9 @@ public class TileFx : MonoBehaviour
 			{
 				_boomFx.Stop();
 				_boomFx.Clear();				
-			}													
+			}
+			
+			_boomFx.transform.position = transform.position;
 		}		
 		_boomFx.Play();
 	}

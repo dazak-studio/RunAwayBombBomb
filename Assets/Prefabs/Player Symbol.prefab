@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4352719354957640}
   - component: {fileID: 212586479959423028}
+  - component: {fileID: 114778135062709010}
   m_Layer: 0
   m_Name: Player Symbol
   m_TagString: Untagged
@@ -40,6 +41,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114778135062709010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086480580866418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c67428098d1ba5459b2b85af832f943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _emotionFxPrefabGroup:
+  - {fileID: 180600, guid: f276f55eadaf0e34ba03d5b43bfbfae0, type: 2}
+  - {fileID: 173990, guid: 69359de5f8759454bbfe449e619129bc, type: 2}
+  - {fileID: 156528, guid: 93a7485b7f1564c4aae6a739c3edc50e, type: 2}
+  - {fileID: 158680, guid: f3a078e53333c434e93d5282b3c524c6, type: 2}
+  - {fileID: 120732, guid: 9e3b6489a85bfa04e844964c8c1e12ed, type: 2}
+  - {fileID: 180048, guid: 4a9bb31a555add44ba9d0dbc0c220e70, type: 2}
+  - {fileID: 110490, guid: 3a1dd40f2c911e541afb98fc9829ec06, type: 2}
+  - {fileID: 144222, guid: 22639b6f8f7b8c943bca8000475a5f8d, type: 2}
+  - {fileID: 143880, guid: 579f4fdf289cbd14e893e6bdc258ec64, type: 2}
+  - {fileID: 133812, guid: e0a635c1d90e2314597eb60951e3bc3a, type: 2}
+  - {fileID: 191538, guid: aa761d85f1403d34395c82abc44a5322, type: 2}
+  - {fileID: 169426, guid: ab519ef83513b594cad24b0df6fc5d72, type: 2}
 --- !u!212 &212586479959423028
 SpriteRenderer:
   m_ObjectHideFlags: 1
