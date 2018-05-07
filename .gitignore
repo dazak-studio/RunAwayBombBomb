@@ -4,8 +4,10 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+
+# Jet brain IDE
 /Assets/Plugins/Editor.meta
-/Assets/Plugins/Editor/Jetbrain.meta
+/Assets/Plugins/Editor/Jetbrains.meta
 /Assets/Plugins/Editor/Jetbrains/
 
 # Visual Studio 2015 cache directory
